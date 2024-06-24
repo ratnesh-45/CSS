@@ -1,0 +1,19 @@
+.container
+{
+  height: 50px ;
+  width: 900px;
+  background-color: pink;
+ border: 2px solid green;
+ border-radius: 5px;
+ display: flex;
+ justify-content: flex-start;
+ align-items: flex-start;
+ margin:  20px auto;
+
+}
+.container div{
+  height: 50px;
+  width: 80px;
+  font-size: 24px;
+  padding: 10px;
+}
