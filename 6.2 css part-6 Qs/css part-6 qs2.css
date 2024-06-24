@@ -1,0 +1,44 @@
+.container
+{
+  height:100vh ;
+
+  margin: 0px auto;
+  padding: 0px;
+  background-color: rgb(252, 247, 247);
+  display: grid;
+  grid-template-columns:repeat(12,1fr) ;
+  grid-template-rows: repeat(12,1fr);
+  grid-gap: 10px;
+
+
+
+}
+.container div{
+  background-color: pink;
+  font-size: 1.5rem;
+}
+.header
+{
+  grid-column: 1/13;
+}
+.sidebar
+{
+  grid-row:2/10 ;
+  grid-column: 1/3;
+}
+.navigation
+{
+grid-column:3/9 ;
+}
+.main{
+  grid-row: 3/10;
+  grid-column:3/9 ;
+}
+.ads {
+  grid-column: 10 / span 3;
+  grid-row: 2 / span 10;
+  }
+.footer
+{
+  grid-column: 1/13;
+}
