@@ -1,0 +1,40 @@
+.container
+{
+  height: 300px;
+  width: 60%;
+  text-align: center;
+  background-color: rgb(202, 245, 245);
+  border: 2px solid black;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+/* flex-wrap: wrap; */
+/* align-items: center; */
+align-content:flex-start;
+
+}
+#yellow
+{
+  /* align-self: flex-end; */
+/* flex-grow: 1; */
+min-width: 300px;
+flex-shrink: 1;
+}
+#blue
+{
+  flex-shrink: 3;
+}
+h1
+{
+  text-align: center;
+}
+.container div
+{
+height: 100px;
+width: 100px;
+text-align: center;
+
+
+
+}
